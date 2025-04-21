@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.rafaelsouza.gestao_vagas.exceptions.UserFoundException;
 import br.com.rafaelsouza.gestao_vagas.modules.candidate.CandidateEntity;
-import br.com.rafaelsouza.gestao_vagas.modules.candidate.CandidateRepository;
 import br.com.rafaelsouza.gestao_vagas.modules.candidate.services.CandidateService;
 import jakarta.validation.Valid;
 
